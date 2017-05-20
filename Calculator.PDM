@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=Standard calculator
+
+
+[Package|Standard calculator|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=I:\college\Work3 Calc\Package
+
+[Package|Standard calculator|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard calculator|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard calculator|Files Found]
+
+[Package|Standard calculator|Files Released]
+
+[Package|Standard calculator|Missing Dependency Information]
+
+[Package|Standard calculator|Out-of-Date Dependency Information]
+
+[Package|Standard calculator|Files Added]
+
+[Package|Standard calculator|Files Removed]
+
+[Package|Standard calculator|Files In Project]
+I:\college\Work3 Calc\Calculator.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard calculator|Configure Registry Files]
+Applicable=No
+
+[Package|Standard calculator|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard calculator|Install Locations]
+I:\college\Work3 Calc\Calculator.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard calculator|Configure Shared Files]
+Applicable=Yes
+I:\college\Work3 Calc\Calculator.exe=Yes
+
+[Package|Standard calculator|Distribution]
+Type=single
+Size=
+Title=Calculator
+
+[Package|Standard calculator|IconGroups]
+Group0=Calculator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard calculator|Calculator]
+Icon1=Calculator.exe
+Title1=Calculator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard calculator|Package]
+PackageFolder=I:\college\Work3 Calc\Package
+ProjectFolder=I:\college\Work3 Calc
+ServerSideCab=
+File1=I:\college\Work3 Calc\Package\setup.exe
+File2=I:\college\Work3 Calc\Package\Setup.Lst
+File3=I:\college\Work3 Calc\Package\Calculator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
